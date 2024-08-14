@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+#text-style{
+   font-size: 2rem;
+   font-weight: 400;
+   line-height: 2;
+   text-align: center;
+   
+}
+
+#text-area {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    position: relative;
+}
+
+.position{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls {
+    margin-top: 30px;
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons{
+    padding: 0.5em;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
